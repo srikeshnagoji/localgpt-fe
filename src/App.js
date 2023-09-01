@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import ChatWindow from "./components/ChatWindow";
+import { NextUIProvider } from "@nextui-org/react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <NextUIProvider>
+      <div className="App">
+        <header className="App-header">
+          <h1 className="logo">Alfred.ai</h1>
+          <h3>Powered by Airbus S&TI</h3>
+        </header>
+        <ChatWindow />
+      </div>
+    </NextUIProvider>
   );
 }
 
