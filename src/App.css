@@ -2,6 +2,8 @@
 
 html {
   box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+
 }
 
 .App{
@@ -12,7 +14,8 @@ html {
   align-items: center;
   height: 100vh;
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  font-family: Helvetica, sans-serif;
+  /* font-family: Helvetica, sans-serif; */
+  font-family: 'Lexend', sans-serif;
 }
 
 .App-header{
@@ -27,12 +30,30 @@ html {
     /* position: fixed; */
     /* transform: translate(-50%,-50%); */
     padding: 0.1em;
-    padding-top: 1.5em;
-    font-family: 'Poppins',sans-serif;
+    padding-top: 1.15em;
     font-size: 3em;
     font-weight: 600;
     /* color: #e0e5eb; */
     color: #70aaf1;
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);; */
+    text-shadow: 
+    -8px -8px 12px rgba(255,255,255,0.4),
+    8px 8px 12px rgba(0,0,0,0.08);
+    caret-color:#262626;
+    outline: none;
+
+    /* ------------ */
+    
+ }
+
+ .sub-title{
+    /* position: fixed; */
+    /* transform: translate(-50%,-50%); */
+    padding: 0.1em;
+    font-size: 1.5em;
+    font-weight: 300;
+    /* color: #e0e5eb; */
+    color: #596676;
     /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);; */
     text-shadow: 
     -8px -8px 12px rgba(255,255,255,0.4),
