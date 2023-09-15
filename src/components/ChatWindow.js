@@ -123,13 +123,14 @@ const ChatWindow = () => {
                           className="shrink-0"
                           isBordered
                           color="primary"
+                          src="/bot.png"
                         />
                         <p>{message.answer}</p>
                       </CardBody>
 
                       <Divider />
                     </CardBody>
-                    <p>Sources:</p>
+                    <div className="text-base">Sources:</div>
                     <Accordion isCompact>
                       {message.metadata.map((obj, i) => (
                         <AccordionItem
